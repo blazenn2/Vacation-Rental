@@ -4,6 +4,37 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
+@layer components {
+  html {
+    font-family: "Poppins", Arial, sans-serif;
+  }
+
+  .nav_item {
+    border: none;
+    position: relative;
+  }
+
+  .nav_item:hover {
+    border: none;
+  }
+
+  .nav_item::after {
+    content: '';
+    position: absolute;
+    width: 0px;
+    height: 2px;
+    left: 50%;
+    bottom: 0;
+    background-color: #fd7792;
+    transition: all 0.5s ease-out;
+  }
+
+  .nav_item:hover::after {
+    width: 100%;
+    left: 0;
+  }
+}
+
 html,
 body {
   padding: 0;
