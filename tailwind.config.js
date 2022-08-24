@@ -13,6 +13,10 @@ module.exports = {
       },
       backgroundImage: {
         'hero': 'url("https://preview.colorlib.com/theme/vacationrental/images/xbg_1.jpg.pagespeed.ic.ZaS6JLR_0b.webp")'
+      },
+      fontFamily: {
+        'poppins': ['Poppins', 'Arial', 'sans-serif'],
+        'playFair': ['Playfair Display SC', 'serif']
       }
     }
   },

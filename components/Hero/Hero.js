@@ -1,9 +1,11 @@
 import HeroContent from "./HeroContent"
+import HeroForm from "./HeroForm"
 
 const Hero = () => {
     return (
-        <div className="h-[90vh] bg-hero bg-cover grid grid-cols-2">
+        <div className="h-[95vh] hero_background bg-cover grid grid-cols-5">
             <HeroContent />
+            <HeroForm />
         </div>
     )
 }

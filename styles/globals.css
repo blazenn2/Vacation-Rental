@@ -2,11 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC:wght@700&family=Poppins&display=swap');
 
 @layer components {
   html {
     font-family: "Poppins", Arial, sans-serif;
+  }
+
+  .hero_background {
+    /* background: url("https://preview.colorlib.com/theme/vacationrental/images/xbg_1.jpg.pagespeed.ic.ZaS6JLR_0b.webp"); */
+    background: linear-gradient(0deg, #00000040, #00000040), url(https://preview.colorlib.com/theme/vacationrental/images/xbg_1.jpg.pagespeed.ic.ZaS6JLR_0b.webp);
   }
 
   .nav_item {
