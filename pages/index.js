@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Header from '../components/Header/Header'
 import Hero from '../components/Hero/Hero'
+import HeroCard from '../components/HeroCard/HeroCard'
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
 
       <Header />
       <Hero />
+      <HeroCard />
 
     </div>
   )
