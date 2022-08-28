@@ -9,7 +9,6 @@ const HeroContent = () => {
             <div>
                 <PrimaryBtn text={"LEARN MORE"} />
                 <SecondaryBtn text={"CONTACT US"} />
-
             </div>
         </div>
     )

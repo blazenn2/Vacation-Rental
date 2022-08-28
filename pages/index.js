@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import ApartmentRoom from '../components/ApartmentRoom/ApartmentRoom'
 import Header from '../components/Header/Header'
 import Hero from '../components/Hero/Hero'
 import HeroCard from '../components/HeroCard/HeroCard'
@@ -15,6 +16,7 @@ export default function Home() {
       <Header />
       <Hero />
       <HeroCard />
+      <ApartmentRoom />
 
     </div>
   )
